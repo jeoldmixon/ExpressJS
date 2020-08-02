@@ -1,7 +1,3 @@
-// //file write
-// const fs = require('fs');
-// // path
-// const path = require('path');
 // express js
 const express = require("express");
 // create server
