@@ -1,12 +1,37 @@
 [
   {
-    "title": "Test //",
-    "text": "test //",
-    "id": "2f1a80bf-1c82-422b-bf1c-bae42a738ffb"
+    "title": "Module 0",
+    "text": "Getting started",
+    "id": "eb6d829b-98f4-4e5d-9fb1-3ef1ae11d1e3"
   },
   {
-    "title": "treat",
-    "text": "trest",
-    "id": "e77f119b-c4b8-4642-a5d0-c30e7a094095"
+    "title": "Module 1",
+    "text": "HTML, CSS, Git",
+    "id": "5b5ad6ba-f876-4d27-a509-ca34612d4aac"
+  },
+  {
+    "title": "Module 2",
+    "text": "Advanced CSS",
+    "id": "55cc9283-f23a-40fa-a96c-e3823d429c08"
+  },
+  {
+    "title": "Module 3",
+    "text": "Javascript",
+    "id": "e853ce6c-642e-4732-a063-e49dbdcfe3c6"
+  },
+  {
+    "title": "Module 4",
+    "text": "Web API's",
+    "id": "38c46352-35da-447d-8e3c-df9cd9e90f56"
+  },
+  {
+    "title": "Module 5",
+    "text": "Third party API's",
+    "id": "be064726-dbe0-41c0-8ac5-2ceab3fa560f"
+  },
+  {
+    "title": "Module 6",
+    "text": "Server side API's",
+    "id": "cd3436c0-3e21-4bb0-b238-d0fcbe4084f2"
   }
 ]
