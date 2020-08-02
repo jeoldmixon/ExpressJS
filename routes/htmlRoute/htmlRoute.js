@@ -1,3 +1,13 @@
-// html site: 2 requests
-//UUID
-import { v4 as uuidv4 } from 'uuid';
+// gets and router
+const path = require('path');
+const router = require('express').Router();
+
+router.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../public/index.html'));
+});
+
+router.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '../../public/notes.html'));
+});
+
+module.exports = router;

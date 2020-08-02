@@ -1,19 +1,21 @@
-//file write
-const fs = require('fs');
-// path
-const path = require('path');
+// //file write
+// const fs = require('fs');
+// // path
+// const path = require('path');
 // express js
 const express = require('express');
+// create server
+const app = express();
 //UUID  for id of array  // npm
 const { v4: uuidv4 } = require('uuid');
 // api routes
-const apiRoutes = require('./routes/apiRoute/apiRoute');
+const apiRoutes = require('./routes/apiRoute/noteTakerRoute');
 // html routes
 const htmlRoutes = require('./routes/htmlRoute/htmlRoute');
 // ports
 const PORT = process.env.PORT || 3001;
-// create server
-const app = express();
+//Public static folder
+app.use(express.static('public'));
 //parse incoming JSON
 app.use(express.json());
 //parse incoming string-array
